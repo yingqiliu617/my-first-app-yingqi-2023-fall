@@ -5,7 +5,11 @@ from dotenv import load_dotenv
 load_dotenv() # go look in the .env file for any env vars
 
 API_KEY = os.getenv("ALPHAVANTAGE_API_KEY")
+print(API_KEY)
 
+#breakpoint()
+
+quit()
 
 import requests
 import json
