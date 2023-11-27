@@ -32,11 +32,12 @@ def send_email(recipient_address=SENDER_ADDRESS, subject="[Shopping Cart App] Te
         print(response.status_code) #> 202 indicates SUCCESS
         print(response.body)
         print(response.headers)
+        return response.status_code
 
     except Exception as err:
         print(type(err))
         print(err)
-
+        return None
 
 
 if __name__ == "__main__":
