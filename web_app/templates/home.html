@@ -1,0 +1,25 @@
+{% extends "bootstrap_5_layout.html" %}
+{% set active_page = "hello" %}
+
+{% block content %}
+
+    <h1>Welcome Home</h1>
+
+    <p>This is a paragraph on the "home" page.</p>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://media.licdn.com/dms/image/C4E03AQGu_9t3jLEvCw/profile-displayphoto-shrink_800_800/0/1663794873898?e=2147483647&v=beta&t=aeSdRTvojGCZESTl2U9caRRMRYTj6pmSmkP3osDr63E" class="d-block w-100" alt="...">
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://images.squarespace-cdn.com/content/v1/5d7f0d6ac37a5d770c80f14b/771d74f9-6387-4fe0-b83c-27acf5b0bfe8/_DSC0772.jpg" class="d-block w-100" alt="...">
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://images.squarespace-cdn.com/content/v1/60e79a886f2c4c0458a879b6/c6b52698-f171-4400-aa62-0effa92b0519/Screen+Shot+2022-06-08+at+16.54.42.png?format=300w" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    </div>
+{% endblock %}
