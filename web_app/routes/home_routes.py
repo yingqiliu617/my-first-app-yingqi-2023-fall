@@ -35,14 +35,13 @@ def hello_world():
     #return message
     return render_template("hello.html", message=message, x=5)
 
-@home_routes.route("/api/books.json")
-def books():
-    print("BOOKS...")
-    books = [
-        {"id":1, "title": "Harry Potter", "author": "JK Rowling"},
-        {"id":2, "title": "Lord of the Rings", "author": "Tolkien"},
-        {"id":3, "title": "Hunger Games", "author": "Collins"},
-
-    ]
-    return books
-print (books)
+#@home_routes.route("/api/books.json")
+#def books():
+#    print("BOOKS...")
+#    books = [
+#        {"id":1, "title": "Harry Potter", "author": "JK Rowling"},
+#        {"id":2, "title": "Lord of the Rings", "author": "Tolkien"},
+#        {"id":3, "title": "Hunger Games", "author": "Collins"},
+#
+#    ]
+#    return books
