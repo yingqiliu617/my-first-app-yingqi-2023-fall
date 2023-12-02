@@ -1,0 +1,20 @@
+
+{% extends "bootstrap_5_layout.html" %}
+{% set active_page = "weather_form" %}
+
+{% block content %}
+
+    <h2>Weather Form</h2>
+
+    <p>Request some weather data...</p>
+
+    <form action="/weather/dashboard" method="POST">
+
+        <label>Weather Zipcode:</label>
+        <input type="text" name="symbol" placeholder="20057" value="20057">
+        <br>
+
+        <button class="btn btn-success">Submit</button>
+    </form>
+
+{% endblock %}
