@@ -45,3 +45,4 @@ def books():
 
     ]
     return books
+print (books)
