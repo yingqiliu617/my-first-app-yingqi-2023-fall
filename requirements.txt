@@ -19,3 +19,7 @@ ipython
 pytest
 
 flash
+
+#PRODUCTION SERVER NEEDS THIS TO RUN THE WEB APP:
+gunicorn
+
